@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Textos en blanco */
+}
+
+
+header {
+    background-color: #333; /* Fondo gris oscuro para header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Coloca los elementos del header a la derecha */
+}
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+
+header a {
+    color: white;
+    font-weight: normal; /* Sin negrita */
+    font-family: Arial, sans-serif; /* Mismo tipo de fuente que el resto */
+    margin-right: 16px; /* Espacio entre el texto y el ícono del carrito */
+}
+
+
+.carrito-icon {
+    width: 24px; /* Ajusta el tamaño del ícono del carrito */
+    height: 24px;
+    vertical-align: middle;
+}
+
+
+.main-content {
+    background-color: #000000; /* Fondo negro */
+    padding: 20px 0;
+    text-align: left; /* Alinea el texto a la izquierda */
+    position: relative;
+}
+
+
+.main-content h1 {
+    font-size: 69px; /* Tamaño más grande para destacar el texto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300; /* Fuente más delgada */
+    margin: 0 20px; /* Ajusta el margen para centrar el texto verticalmente */
+    color: white;
+}
+
+
+footer {
+    background-color: #333; /* Fondo gris oscuro para footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444; /* Línea sutil para separar el footer */
+   
+}
+
+
+footer h5 {
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: normal;
+}
+
+
+h2, h3 {
+    color: #FFFFFF; /* Textos en blanco */
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+ 
+
+
+
+ 
+
+
+
+
+
